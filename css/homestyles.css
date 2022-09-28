@@ -88,11 +88,17 @@ th, td {
 tr:nth-child(even){background-color: #9c9a9acb}
 
 .footer {
-  position: fixed;
+  position: inherit;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: rgb(13, 79, 145);
   color: white;
   text-align: center;
+}
+#id-selector{
+  color: rgb(172, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: italic; 
 }
